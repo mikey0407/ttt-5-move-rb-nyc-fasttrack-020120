@@ -10,7 +10,7 @@ def input_to_index(input)
  input.to_i-1
 end
  
- def move(board, index, character="X")
+ def display_board(board, index, character="X")
    board[index] = character
  end
  
