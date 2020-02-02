@@ -10,7 +10,8 @@ def input_to_index(input)
  input.to_i-1
 end
  
-board   array[index] = character
+ def move (array, index, character = "X")
+   array[index] = character
  end
  
   
